@@ -1,16 +1,16 @@
 
 public class TestaBanco {
 	public static void main(String[] args) {
-		Cliente paulo = new Cliente();
+		Cliente marlon = new Cliente();
 		
-		paulo.nome = "Paulo Silveira";
-		paulo.cpf = "222.222.222-22";
-		paulo.profissao = "programador";
+		marlon.nome = "Marlon Jhoni";
+		marlon.cpf = "222.222.222-22";
+		marlon.profissao = "programador";
 		
-		Conta contaDoPaulo = new Conta();
-		contaDoPaulo.deposita(100);
+		Conta contaDoMarlon = new Conta();
+		contaDoMarlon.deposita(100);
 		
-		contaDoPaulo.titular = paulo;
-		System.out.println(contaDoPaulo.titular.nome);
+		contaDoMarlon.titular = marlon;
+		System.out.println(contaDoMarlon.titular.nome);
 	}
 }
