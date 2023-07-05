@@ -1,4 +1,4 @@
-
+// extends Gerente herda da classe Funcionario
 public class Gerente extends Funcionario {
 	
 	private int senha;
@@ -16,7 +16,7 @@ public class Gerente extends Funcionario {
 	}
 	
 	public double getBonifacao() {
-		return super.salario;
+		return super.getBonifacao() + super.getSalario();
 	}	
 	
 }
