@@ -1,23 +1,10 @@
-// extends Gerente herda da classe Funcionario
-public class Gerente extends Funcionario {
+// extends Gerente herda da classe FuncionarioAutenticavel
+public class Gerente extends FuncionarioAutenticavel {
 	
-	private int senha;
-	
-	public void setSenha(int senha) {
-		this.senha = senha;
-	}
-	
-	public boolean autentica(int senha) {
-		if(this.senha == senha) {
-			return true;
-		} else {
-			return false;
-		}
-	}
 	
 	public double getBonifacao() {
 		System.out.println("Chamando metodo de bonificacao do GERENTE");
-		return super.getBonifacao() + super.getSalario();
+		return super.getSalario();
 	}	
 	
 }
