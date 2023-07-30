@@ -1,4 +1,3 @@
-package sintaxe;
 
 public class Programa {
 
