@@ -1,3 +1,6 @@
+package br.com.bytebank.banco.modelo;
+
+
 import javax.swing.tree.ExpandVetoException;
 
 public class Conexao implements AutoCloseable {
