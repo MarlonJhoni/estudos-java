@@ -27,7 +27,7 @@ public class TestaListagem {
 		}
 		
 		
-		System.out.println("Fechando conexão!");
+		System.out.println("Fechando conexao!");
 		//fechando conexão
 		connection.close();
 	}
